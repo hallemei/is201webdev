@@ -118,6 +118,31 @@
                 transform: translateY(-1px);
             }
 
+            .tracker-link-wrap {
+                margin-top: 2rem;
+            }
+
+            .tracker-link-button {
+                display: inline-block;
+                padding: 0.95rem 1.75rem;
+                border-radius: 0.5rem;
+                background-color: #e6a756;
+                color: #2f170f;
+                font-family: "Raleway", sans-serif;
+                font-size: 0.85rem;
+                font-weight: 800;
+                letter-spacing: 0.08em;
+                text-transform: uppercase;
+                text-decoration: none;
+                transition: background-color 0.2s ease, transform 0.2s ease;
+            }
+
+            .tracker-link-button:hover {
+                background-color: #d79643;
+                color: #2f170f;
+                transform: translateY(-1px);
+            }
+
             .tracker-grid {
                 display: grid;
                 grid-template-columns: minmax(0, 1.7fr) minmax(15rem, 0.8fr);
@@ -270,6 +295,21 @@
             </div>
         </section>
 
+        <section class="page-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="bg-faded p-5 rounded text-center">
+                            <h2 class="section-heading mb-4">
+                                <span class="section-heading-upper">What You'll Need</span>
+                            </h2>
+                            <p class="mb-0">Bring climbing shoes, a harness, chalk, and a willingness to fall a few times while you learn. A good attitude and a reliable belay buddy help just as much as the gear.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="page-section"></section>>
             <div class="container">
                 <div class="row">
@@ -361,6 +401,10 @@
                                     <p id="hardest">Hardest Climb: None</p>
                                     <p id="totalClimbs">Total Logged Climbs: 0</p>
                                 </aside>
+                            </div>
+
+                            <div class="tracker-link-wrap">
+                                <a class="tracker-link-button" href="resume.html">View Resume Page</a>
                             </div>
                         </div>
                     </div>
